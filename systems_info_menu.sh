@@ -33,7 +33,7 @@ while true; do
         if [[ "$user_selection" -eq 1 ]]; then
                 echo " "
                 echo "Currently logged users: "
-                w
+                who
                 echo " "
         elif [[ "$user_selection" -eq 2 ]]; then
                 echo " "
